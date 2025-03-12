@@ -1,0 +1,44 @@
+@font-face {
+    font-family: komi;
+    src: url(../fonts/komigo.ttf);
+}
+
+.toMain {
+    font-size: 75px;
+    color: whitesmoke;
+    border: 2px solid black;
+    text-decoration: none;
+    background-color: blue;
+}
+
+.toMain:hover {
+    color: gray;
+}
+
+.toMain:active {
+    color: black;
+}
+
+#gameContainer{
+    text-align: center;
+}
+
+#gameBoard{
+    border: 3px solid;
+}
+
+#scoreText{
+    font-family: komi;
+    font-size: 100px;
+    color: red;
+}
+
+#resetBtn{
+    font-family: komi;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
