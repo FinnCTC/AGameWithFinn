@@ -15,10 +15,17 @@
 }
 
 .gameSelector {
-    display: block;
+    display: flex;
     text-align: center;
 }
 
+.gameImage {
+    width: 250px;
+    height: 150px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
 .gameLink {
     font-size: 45px;
     text-decoration: none;
@@ -26,14 +33,13 @@
 }
 
 .snake {
+    display: flexbox;
     border: 2px solid black;
     width: 250px;
 }
 
-.snake img {
+.pong {
+    display: flexbox;
+    border: 2px solid black;
     width: 250px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
 }
-
