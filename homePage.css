@@ -43,3 +43,15 @@
     border: 2px solid black;
     width: 250px;
 }
+
+.tictac {
+    display: flexbox;
+    border: 2px solid black;
+    width: 250px;
+}
+
+.temp {
+    display: flexbox;
+    border: 2px solid black;
+    width: 250px;
+}
