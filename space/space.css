@@ -1,0 +1,25 @@
+.toMain {
+    font-size: 75px;
+    color: whitesmoke;
+    border: 2px solid black;
+    text-decoration: none;
+    background-color: blue;
+    float: left;
+}
+
+.toMain:hover {
+    color: gray;
+}
+
+.toMain:active {
+    color: black;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#board {
+    background-color: black;
+}
